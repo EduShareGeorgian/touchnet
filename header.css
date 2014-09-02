@@ -1,0 +1,39 @@
+#header {
+    background: #004b87 url('http://www.georgiancollege.ca/i/patterns/accelerator-banner-large-white.png') 50% top repeat !important;
+    height: 100px !important;
+    min-height: 0px !important;
+}
+.headerbanner {
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+    width: 50% !important;
+    min-width: 100px !important;
+    max-width: 320px !important;
+}
+.headerImage {
+    width: 80% !important;
+    border: none !important;
+}
+
+/* Caution: The following media queries are incomplete and merely to give examples of how to use the
+   logos and patterns.
+ */
+@media all and (max-width: 767px) {
+    #header {
+        height: 70px !important;
+        background: #004b87 url('http://www.georgiancollege.ca/i/patterns/accelerator-banner-small-white.png') 50% top repeat !important;
+    }
+    .headerbanner {
+        padding-top: 10px !important;
+        padding-left: 10px !important;
+        max-width: 240px !important;
+    }
+}
+@media all and (max-width: 480px) {
+    #header {
+        height: 50px !important;
+    }
+    .headerbanner {
+        max-width: 140px !important;
+    }
+}
