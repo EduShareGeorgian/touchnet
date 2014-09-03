@@ -1,0 +1,1552 @@
+.tms65_checkout_stylesheet_default .date_05_16_2013 .modified_BG {}
+
+ul.menu, ul.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #333;
+}
+ul.menu a {
+	display: block;
+	text-decoration: none;
+}
+ul.menu li {
+	margin-top: 1px;
+}
+ul.menu li a {
+	color: #333;
+	padding: 5px 5px 5px 15px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+*+html ul.menu li a {
+	padding: 4px 5px 6px 15px;
+}
+ul.menu li a:hover {
+	border-left: 5px solid #000;
+	padding-left: 10px;
+	color: #000;
+}
+ul.menu li ul li a {
+	color: #000;
+	padding-left: 20px;
+	background: #e5e5e5;
+	margin-top: 1px;
+}
+ul.menu li ul li a:hover {
+	border-left: 5px #000 solid;
+	padding-left: 15px;
+	color: #000;
+}
+ul.menu li ul li ul li a {
+	background: #fff;
+	color: #000;
+	padding-left: 25px;
+	margin-top: 1px;
+}
+ul.menu li ul li ul li a:hover {
+	border-left: 5px solid #000;
+	padding-left: 20px;
+	color: #000;
+}
+#containerNoNav.checkout {
+	width: 980px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px auto -100px;
+	padding: 0px;
+	background: #FFF url(../images/left_nav_background_no_nav.gif);
+	border-right: 1px solid #333;
+	border-left: 1px solid #333;
+}
+.leftNavigation h2, .leftNavigation label {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #FFF;
+	background: #84888b;
+	padding: 5px 10px;
+	border-top: 1px solid #333;
+	display: block;
+	clear: both;
+}
+.leftNavigation label.noTopBorder {
+	border-top-style: none;
+	border-bottom: 1px solid #333;
+}
+.leftNavigation select.allStores {
+	padding: 1px;
+	margin: 10px 5px 10px 10px;
+	width: 225px !important;
+	margin: 10px;
+	font-size: .8em;
+	white-space: normal;
+}
+ul.menu li .m1 {
+	background: #ccc;
+}
+.green {
+	background: #d4e8c6;
+}
+#tabsAllStores, #tabsStoreGroups, #tabsStoreCategories, #tabsStoreGroupsNoImage, #tabsStoreCategoriesNoImage {
+	display: block;
+	float: left;
+	clear: both;
+	width: 650px;
+}
+#tabsProfile, #tabsPaymentMethods, #tabsMemberships, #tabsOrderHistory, #tabsPassword {
+	display: block;
+	float: left;
+	clear: both;
+	width: 900px;
+}
+#tabsAllStores, #tabsStoreCategories {
+	padding-bottom: 10px;
+}
+#tabsStoreCategories .columnLeft.allStores li a {
+	background: #eee;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #CCC;
+	display: block;
+	font-weight: bold;
+}
+#tabs hr, #createAccount hr {
+	background: #CCC;
+	display: block;
+	height: 1px;
+	clear: both;
+	margin: 15px 0px 15px;
+}
+ul.allStores.columnLeft {
+	list-style: none;
+	display: block;
+	width: 49%;
+	font-size: 0.8em;
+	float: left;
+	padding: 0px;
+	margin-right: 15px;
+}
+ul.allStores.columnRight {
+	list-style: none;
+	display: block;
+	width: 47%;
+	font-size: 0.8em;
+	float: right;
+	padding: 0px;
+}
+ul.allStores.columnLeft li a:link, ul.allStores.columnLeft li a:visited, ul.allStores.columnRight li a:link, ul.allStores.columnRight li a:visited {
+	margin-bottom: 5px;
+	display: block;
+	background: #eee;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+.storeGroupContainer, .storeCategoriesContainer {
+	display: block;
+	clear: both;
+	margin-bottom: 15px;
+	float: left;
+	width: 650px;
+}
+.storeCategoriesContainer .columnLeft.storeCategories .detail.title.noImage a {
+	font-size: .8em;
+	margin-bottom: 5px;
+	display: block;
+}
+.storeCategoriesContainer .columnRight.storeCategories .detail.title.noImage a {
+	font-size: .8em;
+	display: block;
+	margin-bottom: 5px;
+}
+.columnLeft.storeGroup, .columnLeft.storeCategories {
+	display: block;
+	width: 293px;
+	float: left;
+	padding: 10px 10px 0px;
+	background: #eee;
+	border: 1px solid #CCC;
+}
+.columnRight.storeGroup, .columnRight.storeCategories {
+	display: block;
+	width: 293px;
+	float: right;
+	padding: 10px 10px 0px;
+	background: #eee;
+	border: 1px solid #CCC;
+}
+.columnLeft.storeGroup .detail.image, .columnRight.storeGroup .detail.image, .columnLeft.storeCategories .detail.image, .columnRight.storeCategories .detail.image {
+	border: 1px solid #CCC;
+	width: 48px;
+	max-height: 48px;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+	display: block;
+	vertical-align: middle;
+	background: #FFF;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+.columnLeft.storeGroup .detail.title, .columnRight.storeGroup .detail.title, .columnRight.storeCategories .detail.title {
+	width: 235px !important;
+	margin-bottom: 5px;
+	display: block;
+	padding-left: 60px;
+}
+.columnLeft.storeGroup.noImage .detail.title, .columnRight.storeGroup.noImage .detail.title, .columnLeft.storeCategories.noImage .detail.title, .columnRight.storeCategories.noImage .detail.title {
+	width: 293px !important;
+	margin-bottom: 5px;
+	display: block;
+	padding-left: 0px;
+	font-size: .8em;
+}
+.columnLeft.storeCategories .detail.title {
+	margin-bottom: 5px;
+	display: block;
+	padding-left: 60px;
+	font-size: .8em;
+}
+.storeCategoriesContainer .columnLeft.storeCategories p, .storeCategoriesContainer .columnRight.storeCategories p {
+}
+.columnLeft.storeGroup .detail.description, .columnRight.storeGroup .detail.description, .columnLeft.storeCategories .detail.description, .columnRight.storeCategories .detail.description {
+	width: 230px;
+}
+.columnLeft.storeGroup p, .columnRight.storeGroup p, .columnLeft.storeCategories p, .columnRight.storeCategories p {
+	width: 230px;
+	display: block;
+	float: right;
+}
+.columnLeft.storeGroup label, .columnRight.storeGroup label, .columnLeft.storeCategories label, .columnRight.storeCategories label {
+	display: none;
+}
+.columnLeft.storeGroup select, .columnRight.storeGroup select, .columnLeft.storeCategories select, .columnRight.storeCategories select {
+	display: block;
+	font-size: 100%;
+	max-width: 220px;
+	overflow: auto;
+	width: 100%;
+}
+.columnLeft.storeGroup.noImage select, .columnRight.storeGroup.noImage select, .columnLeft.storeCategories.noImage select, .columnRight.storeCategories.noImage select {
+	display: block;
+	font-size: 100%;
+	max-width: 290px;
+	overflow: auto;
+	margin-left: 0px;
+}
+select.tabSelect {
+	width: 285px;
+	display: block;
+}
+.columnLeft.storeGroup.noImage .detail.image, .columnRight.storeGroup.noImage .detail.image, .columnLeft.storeCategories.noImage .detail.image, .columnRight.storeCategories.noImage .detail.image {
+	display: none;
+}
+.columnLeft.storeGroup.noImage .detail.title, .columnRight.storeGroup.noImage .detail.title, .columnLeft.storeCategories.noImage .detail.title, .columnRight.storeCategories.noImage .detail.title {
+	margin-bottom: 5px;
+	width: 293px;
+}
+.columnLeft.storeGroup.noImage .detail.description, .columnRight.storeGroup.noImage .detail.description, .columnLeft.storeCategories.noImage .detail.description, .columnRight.storeCategories.noImage .detail.description {
+	width: 290px;
+}
+.columnLeft.storeGroup.noImage p, .columnRight.storeGroup.noImage p, .columnLeft.storeCategories.noImage p, .columnRight.storeCategories.noImage p {
+	width: 290px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.storeAccountContainer {
+	display: block;
+	clear: both;
+	float: left;
+	width: 898px;
+}
+.storeAccountContainer input, .accountContainer input {
+	width: 30ex;
+	max-width: 30ex;
+	display: block;
+	font-size: 100%;
+	float: left;
+}
+.storeAccountContainer select {
+	width: 30ex;
+	max-width: 30ex;
+	border: 1px solid #CCCCCC;
+	display: block;
+	font-size: 100%;
+	overflow: visible;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+.storeAccountContainer .radio {
+	float: left;
+	width: 20px;
+}
+#EDMO, #EDYR, .endMonth, .endYear {
+	width: auto !important;
+}
+.storeAccountContainer .columnLeft.account {
+	display: block;
+	width: 445px;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+}
+.storeAccountContainer .columnRight.account {
+	display: block;
+	width: 445px;
+	float: right;
+	padding: 0px;
+	margin-top: 15px;
+}
+.storeAccountContainer p {
+	display: block;
+	clear: both;
+	float: left;
+	width: 890px;
+}
+.storeAccountContainer .dataLabel.notRequired {
+	width: 171px;
+	float: left;
+	margin-left: 9px;
+}
+.storeAccountContainer p label {
+	display: block;
+	padding: 0px 5px 0px 0px;
+	width: 180px;
+	float: left;
+	margin-left: 0px;
+}
+.storeAccountContainer p label.fullWidth {
+	width: auto;
+	padding-top: 0px;
+}
+*+html .storeAccountContainer p label.fullWidth {
+	padding-top: 4px;
+}
+.storeAccountContainer label.padded {
+	margin-bottom: 5px;
+}
+.columnRight.account p, .columnLeft.account p {
+	width: 435px;
+	display: block;
+	float: left;
+}
+.storeAccountContainer p.requiredText {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #af292e;
+	display: block;
+	text-align: right;
+	float: right;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+*+html .storeAccountContainer p.requiredText {
+	margin: 0px 0px 15px;
+}
+.storeAccountContainer p label.notRequired {
+	width: 171px;
+	padding-left: 9px;
+}
+.storeAccountContainer h4 {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	padding: 5px;
+	background: #eeeeee;
+	clear: both;
+	width: 886px;
+	border: 1px solid #CCC;
+}
+#orderHistoryDetail h4.orderHistory {
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	padding: 5px;
+	background: #eeeeee;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-bottom: none;
+	width: 887px;
+	clear: both;
+	float: left;
+}
+.storeAccountContainer h4.backgroundWhite {
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	margin: 0px 0px 10px;
+	width: 432px;
+}
+.storeAccountContainer .columnRight.account h4.backgroundWhite {
+	margin: 0px 0px 15px;
+}
+.storeAccountContainer .dataLabel {
+	display: block;
+	margin: 0px 0px 5px 0px;
+	padding: 0px 5px 0px 0px;
+	width: 180px;
+	float: left;
+	font-size: .8em;
+}
+.storeAccountContainer .data {
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 0px;
+	width: 220px;
+	float: left;
+	font-size: .8em;
+}
+.storeAccountContainer ul li .dataLabel, .storeAccountContainer ul li .data {
+	font-size: 100%;
+}
+.storeAccountContainer .formSpacer {
+	display: block;
+	margin: 0px 0px 5px 5px;
+	padding: 0px;
+	width: 200px;
+	float: left;
+	font-size: 0.8em;
+}
+.storeAccountContainer .dataStack {
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 0px;
+	width: 225px;
+	float: left;
+}
+.columnRight.account .dataStack p {
+	width: 220px;
+}
+.columnRight.account .dataStack p .monthYear {
+	display: block;
+	float: left;
+	width: auto;
+}
+.columnRight.account .dataStack p label {
+	width: 150px;
+	padding-top: 2px;
+}
+.columnRight.account #UP_COUNTRY, .columnRight.account #UP_SHIP_COUNTRY, columnRight.account #UP_STATE {
+	width: 30ex;
+}
+.columnLeft.account .shippingAddress p.editDelete {
+	font-weight: bold;
+	color: #4f107a;
+	text-align: left;
+	width: 420px;
+	margin: 5px 0px 5px;
+}
+.storeAccountContainer .columnLeft.account .shippingAddress .dataLabel {
+	width: 200px;
+	font-size: .8em;
+}
+.storeAccountContainer .columnLeft.account .shippingAddress .data {
+	width: 210px;
+	font-size: .8em;
+}
+.columnLeft.account .shippingAddress {
+	display: block;
+	clear: both;
+	float: left;
+	margin-bottom: 15px;
+	border: 1px solid #CCC;
+	padding: 10px 5px 5px;
+	width: 430px;
+}
+#content .rightColumn.fullWidth {
+	width: 930px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	display: block;
+	float: left;
+}
+*+html #content .rightColumn.fullWidth {
+	margin-bottom: 30px;
+}
+.shippingAddress.billingAddress {
+	background: #d4e8c6;
+}
+.storeAccountContainer .shippingAddress.billingAddress .dataLabel.cleared {
+	width: 420px;
+	float: left;
+	display: block;
+	clear: both;
+}
+.columnLeft.account.membership, .columnRight.account.membership {
+	width: 350px;
+	float: left;
+}
+.columnLeft.account.membership p, .columnRight.account.membership p {
+	font-weight: bold;
+	width: 290px;
+	padding-left: 0px;
+}
+.storeAccountContainer .selectMemberships {
+	height: 20ex;
+	width: 35ex;
+	border: 1px solid #CCC;
+}
+#createAccount, #orderHistoryDetail {
+	padding: 15px 15px 0px;
+	border: 1px solid #CCC;
+	display: block;
+	float: left;
+	width: 898px;
+}
+#orderHistoryDetail .orderHistorySegment {
+	display: block;
+	clear: both;
+	float: left;
+	margin-top: 15px;
+}
+.storeAccountContainer .columnLeft.createAccount {
+	display: block;
+	width: 898px;
+	float: left;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+.storeAccountContainer .columnLeft.createAccount p {
+	display: block;
+	clear: both;
+	float: left;
+	width: 889px;
+	padding-left: 5px;
+}
+.storeAccountContainer .columnLeft.createAccount p label {
+	display: block;
+	padding: 2px 0px 0px;
+	width: 200px;
+	float: left;
+	margin-left: 0px;
+}
+.storeAccountContainer .columnLeft.createAccount p label.notRequired {
+	width: 200px;
+	display: block;
+	padding-left: 0px;
+}
+.storeAccountContainer .dataLabel.notRequired {
+	padding-left: 0px;
+	margin-left: 5px;
+	width: 185px;
+}
+.columnLeft.createAccount p .fieldInstructions {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+#cart {
+	display: block;
+	clear: both;
+	width: 930px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+#cart h2 {
+	padding: 5px;
+	background: #eee;
+	font-size: 1em;
+	color: #333;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	display: block;
+	clear: both;
+}
+#cart h2.topMargin {
+	margin-top: 10px;
+	display: block;
+	float: left;
+	width: 918px;
+}
+#cart h2.bottomMargin {
+	margin-bottom: 10px;
+}
+.cartContainer h2 {
+	margin-top: 0px;
+	display: block;
+}
+#printArea h2 {
+	background: transparent;
+	margin: 5px 0px 0px;
+	padding: 0px;
+	border-style: none;
+}
+#cart .storeName {
+	background: #d4e8c6;
+	padding: 3px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+#cart h3 {
+	font-size: .9em;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	clear: both;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+}
+#cart h4.paymentHeader {
+	background: #FFF;
+	border-bottom: 1px solid #CCC;
+	font-size: .9em;
+	font-weight: bold;
+	color: #666;
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+}
+#cart hr {
+	background: #CCC;
+	display: block;
+	height: 1px;
+	margin: 15px 0px;
+	clear: both;
+	padding: 0px;
+}
+*+html #cart hr {
+	margin: 15px 0px 0px;
+}
+#cart .cartContainer .message {
+	display: block;
+	padding: 10px;
+	border: 1px solid #55a51c;
+	background: #d4e8c6;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #55a51c;
+}
+#cart .cartContainer .receiptOrder {
+	display: block;
+	float: left;
+	width: 930px;
+	margin: 0px 0px 15px;
+}
+#cart .itemTotal {
+	display: block;
+	clear: both;
+	float: left;
+	padding: 10px 5px;
+	width: 918px;
+	background: #d4e8c6;
+	margin-bottom: 10px;
+	border-top: none;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+#cart table tr.itemTotal {
+	padding: 10px 5px;
+	background: #d4e8c6 !important;
+	border-top: none;
+	font-weight: bold;
+	color: #000;
+	clear: none;
+	display: table-row;
+	float: none;
+}
+#cart .itemTotal.noBottomMargin,  {
+	margin-bottom: 0px;
+}
+#cart .itemTotal .dataLabel {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	float: right;
+	text-align: right;
+	padding: 0px 5px 0px 0px;
+}
+#cart .itemTotal .data {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #000;
+	display: block;
+	float: right;
+	width: 20%;
+	text-align: right;
+}
+#cart .mytable hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.cart img.trash {
+	max-height: 24px;
+	max-width: 18px;
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.cart select {
+	border: 1px solid #CCCCCC;
+	display: block;
+	font-size: 100%;
+	overflow: visible;
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+.cart text, .cart password {
+	width: 5ex;
+	max-width: 5ex;
+	display: block;
+	font-size: 100%;
+}
+#cart .cartButtons {
+	display: block;
+	clear: both;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: left;
+	width: 930px;
+}
+.cartContainer {
+	display: block;
+}
+.cartContainer input {
+	width: 30ex;
+	max-width: 30ex;
+	display: block;
+	font-size: 100%;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid #CCC;
+	margin-top: 2px;
+}
+.cartContainer input.text.readonly {
+	background: #eee;
+	color: #666;
+}
+.cartContainer select {
+	width: 30ex;
+	border: 1px solid #CCCCCC;
+	display: block;
+	font-size: 100%;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	float: left;
+}
+.cartContainer input.radio {
+	width: auto !important;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	border: none !important;
+}
+.mytable tr td input.radio {
+	border: none;
+	vertical-align: middle;
+	float: none;
+	margin: 0px;
+	text-align: center;
+	display: inline-block;
+	width: auto !important;
+}
+.mytable th {
+	font-weight: bold;
+	border: 1px solid #CCC;
+}
+.mytable .right {
+	text-align: right;
+}
+.mytable tr th.center, .mytable tr td.center {
+	text-align: center;
+}
+.mytable tr.light {
+	background: #eee;
+}
+.mytable tr:hover, .mytable tr:hover td, .mytable tr.light:hover, .mytable tr.light:hover td {
+	background: #ffedc4;
+}
+.mytable th tr.tableDescriptions:hover {
+	background: #FFF;
+	font-weight: bold;
+}
+.mytable tr:hover, th:hover {
+	background: #ffedc4;
+}
+.mytable.cart {
+	width: 930px;
+}
+.mytable.cart th, .mytable.cart td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right-style: none;
+	border-left-style: none;
+}
+.mytable.cart .dataLabel {
+	display: block;
+	margin: 0px 0px 5px 0px;
+	width: 60%;
+	float: left;
+}
+.mytable.cart a .dataLabel {
+	font-weight: bold;
+}
+.mytable.cart .data {
+	display: block;
+	margin: 0px 0px 5px;
+	float: right;
+	width: 40%;
+}
+.mytable.cart.column3 tr td .dataLabel {
+	width: 60%;
+	padding-right: 0px;
+}
+.mytable.cart.column3 tr td .data {
+	width: 40%;
+	padding-right: 0px;
+	text-align: left;
+}
+.mytable.cart.column4 tr td .dataLabel {
+	width: 60%;
+	padding-right: 0px;
+}
+.mytable.cart.column4 tr td .data {
+	width: 40%;
+	padding-right: 0px;
+	text-align: right;
+}
+.mytable.cart.column4 tr td hr {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.mytable.cart.column5 tr th .dataLabel {
+	width: 47%;
+}
+.mytable.cart.column5 tr th .data {
+	width: 47%;
+}
+.mytable.cart.column5 tr td .dataLabel {
+	width: 47%;
+}
+.mytable.cart.column5 tr td .data {
+	width: 47%;
+}
+.mytable.cart.receiptb.column5 tr th .dataLabel {
+	width: 67%;
+}
+.mytable.cart.receiptb.column5 tr th .data {
+	width: 33%;
+	text-align: right;
+	float: right;
+	padding-right: 0px;
+}
+.mytable.cart.receiptb.column5 tr td .dataLabel {
+	width: 60%;
+	padding-right: 0px;
+}
+.mytable.cart.receiptb.column5 tr td .data {
+	width: 40%;
+	text-align: right;
+	padding-right: 0px;
+	float: right;
+}
+.mytable.cart.column6 tr th .data {
+	width: 48%;
+	padding: 0px;
+}
+.mytable.cart.receipt.column6 tr td .dataLabel, .mytable.cart.receipt.column6 tr th .dataLabel {
+	width: 70%;
+	padding-right: 0px;
+}
+.mytable.cart.receipt.column6 tr td .data, .mytable.cart.receipt.column6 tr th .data {
+	width: 30%;
+	padding: 0px;
+	text-align: right;
+	float: right;
+}
+.mytable.cart.receipt.column6 tr th .dataLabel {
+	width: 28%;
+}
+.mytable.cart.receipt.column6 tr th .data {
+	width: 30%;
+	padding: 0px;
+	text-align: right;
+}
+.mytable.cart ul, .mytable.orderHistory ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.mytable.cart ul li, .mytable.orderHistory ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: block;
+	clear: both;
+	font-weight: normal;
+	float: left;
+	width: 100%;
+}
+.mytable.orderHistory ul li .dataLabel, .mytable.orderHistory ul li .data {
+	width: 49% !important;
+	padding: 0px;
+}
+.mytable.cart.bottomMargin {
+	margin-bottom: 15px;
+}
+.mytable.cart.noBottomBorder, .mytable.cart.noBottomBorder th, .mytable.cart.noBottomBorder td {
+	border-bottom-style: none;
+}
+.mytable.delivery, .mytable.payment {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	margin-left: 1px;
+	float: left;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	width: 644px;
+}
+*+html .mytable.delivery, .mytable.payment {
+	margin-left: 0px;
+}
+.mytable.delivery th, .mytable.delivery td, .mytable.payment th, .mytable.payment td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right-style: none !important;
+	border-left-style: none !important;
+}
+.mytable.delivery th, .mytable.payment th {
+	font-weight: bold;
+}
+.mytable.delivery .dataLabel, .mytable.payment .dataLabel {
+	font-weight: normal;
+	display: block;
+	margin: 0px 0px 5px 0px;
+	padding: 0px 5px 0px 0px;
+	width: 250px;
+	float: left;
+}
+.mytable.delivery a .dataLabel, .mytable.payment a .dataLabel {
+	font-weight: bold;
+}
+.mytable.delivery .data, .mytable.payment .data {
+	font-weight: normal;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 0px;
+	width: 180px;
+	float: left;
+}
+.columnLeft.deliveryMethod .mytable.delivery {
+	width: 644px;
+	margin: 0px 0px 15px 1px;
+}
+*+html .columnLeft.deliveryMethod .mytable.delivery {
+	width: 645px;
+	margin: 0px 0px 15px 0px;
+}
+#scrolling_div.scrolling .mytable.delivery, #scrolling_div.scrolling .mytable.payment {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right: none !important;
+	border-left: none !important;
+	width: 643px;
+	width: 100% !important;
+	margin-bottom: 0px !important;
+	margin-left: 0px;
+	float: left;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.mytable.paymentInformation {
+	margin-left: 1px;
+	border: 1px solid #CCC;
+	margin-bottom: 15px;
+	width: 613px;
+}
+*+html .mytable.paymentInformation {
+	width: 645px;
+	margin-left: 0px;
+}
+.mytable.paymentInformation th, .mytable.paymentInformation td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right-style: none;
+	border-left-style: none;
+}
+.mytable.paymentInformation th {
+	font-weight: bold;
+}
+.mytable.review {
+	border: 1px solid #CCC;
+	width: 930px;
+}
+.mytable.review th, .mytable.cart td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right-style: none;
+	border-left-style: none;
+}
+.mytable.review .dataLabel {
+	font-weight: normal;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 5px 0px 0px;
+	width: auto;
+	float: left;
+	clear: both;
+}
+.mytable.review a .dataLabel {
+	font-weight: bold;
+}
+.mytable.review .data {
+	font-weight: normal;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 0px;
+	width: auto;
+	float: left;
+	clear: both;
+}
+.mytable.rates {
+	width: 100%;
+	margin: 0px 0px 15px;
+}
+*+html .mytable.rates {
+	width: 97%;
+}
+.mytable.rates tr, .mytable.rates td {
+	border: 1px solid #CCC;
+}
+.mytable.rates tr th:hover, .mytable.rates tr:hover {
+	background: #FFF !important;
+}
+body.popup {
+	background: #999;
+}
+.mytable.shipping {
+	margin-bottom: 15px;
+	width: 515px;
+	float: left;
+}
+.mytable.shipping td {
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+.mytable .productName a {
+	display: block;
+	clear: both;
+	margin-bottom: 5px;
+}
+.cartContainer .columnLeft.deliveryMethod, .cartContainer .columnLeft.deliveryAddress {
+	display: block;
+	width: 645px;
+	float: left;
+	clear: both;
+}
+.cartContainer .columnLeft.deliveryAddress {
+	margin-bottom: 0px;
+}
+.cartContainer .columnLeft.deliveryMethod p.selection {
+	width: 600px;
+}
+.cartContainer .columnLeft.deliveryMethod.border {
+	border: 1px solid #CCC;
+}
+.cartContainer .columnLeft.deliveryMethod .cardTypes p {
+	width: 635px;
+}
+.cartContainer .columnLeft.deliveryMethod .cardTypes p img {
+	border: 1px solid #CCC;
+	margin-right: 10px;
+}
+.cartContainer .columnLeft.deliveryMethod .columnLeft.deliveryAddress p label.trueFalse {
+	display: block;
+	float: left;
+	width: auto;
+	margin-right: 15px;
+}
+.cartContainer .columnLeft p.requiredText {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #af292e;
+	display: block;
+	text-align: right;
+	margin: 0px 0px 10px;
+	padding: 0px;
+	clear: both;
+	float: right;
+}
+.cartContainer .columnLeft .instructions {
+	display: block;
+	background: #ffedc4;
+	padding: 10px;
+	width: 623px;
+	float: left;
+	margin: 0px;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+}
+.cartContainer .columnRight {
+	display: block;
+	width: 270px;
+	float: right;
+	padding: 0px;
+	margin-left: 15px;
+}
+.cartContainer p {
+	display: block;
+	clear: both;
+	float: left;
+	width: 890px;
+}
+.cartContainer p label {
+	display: block;
+	padding: 0px 5px 0px 0px;
+	width: 200px;
+	float: left;
+	margin-left: 0px;
+}
+.cartContainer .orderSummaryDetail.review p label {
+	width: 230px;
+	padding: 0px;
+}
+.cartContainer .dataLabel {
+	display: block;
+	padding: 0px;
+	width: 200px;
+	float: left;
+}
+.cartContainer .data {
+	display: block;
+	padding: 0px;
+	width: 500px;
+	float: left;
+}
+.agreement.achDebit {
+	border: 1px solid #CCC;
+	padding: 10px;
+	display: block;
+	margin-bottom: 15px;
+	float: left;
+	width: 908px;
+}
+.agreement.achDebit label {
+	display: block;
+	float: left;
+	width: 90%;
+}
+.refundAgreement {
+	border: 1px solid #CCC;
+	padding: 5px;
+	display: block;
+	float: left;
+	width: 918px;
+	max-height: 100px;
+	overflow-y: visible;
+	overflow-x: hidden;
+	white-space: normal;
+}
+#cart .refundAgreement h3 {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.refundAgreement label {
+	display: block;
+	float: left;
+	width: 96%;
+}
+.cartContainer .agreement.achDebit label {
+	padding: 0px;
+}
+a.edit:link, a.edit:visited {
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+a.edit:hover, a.edit:active {
+	color: #55a51c;
+	text-decoration: underline;
+}
+.cartContainer .columnLeft.additionalItems {
+	display: block;
+	width: 645px;
+	float: left;
+	clear: both;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 15px;
+}
+.cartContainer .columnLeft.additionalItems .storeItems {
+	display: block;
+	width: 613px;
+	float: left;
+	clear: both;
+	padding: 15px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+.cartContainer .columnLeft.additionalItems .storeItems .leftStoreItems {
+	border: medium none;
+	float: left;
+	margin-left: 10px;
+	text-align: left;
+	width: 290px;
+}
+.cartContainer .columnLeft.additionalItems .storeItems .leftStoreItems .detail.title {
+	display: block;
+	font-size: 0.8em;
+	margin-bottom: 8px;
+	padding-right: 5px;
+	width: auto;
+}
+.cartContainer .columnLeft.additionalItems .storeItems .leftStoreItems .detail.description {
+	display: block;
+	font-size: 0.8em;
+	margin-bottom: 8px;
+	padding-right: 5px;
+	width: auto;
+}
+.cartContainer .columnLeft.additionalItems .storeItems .rightStoreItems {
+	display: block;
+	float: right;
+	padding: 0;
+	text-align: left;
+	width: 220px;
+}
+.cartContainer .columnLeft.additionalItems .storeItems p {
+	clear: both;
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.cartContainer .columnLeft.additionalItems .rightStoreItems label {
+	display: block;
+	float: left;
+	padding-top: 1px;
+	width: 75px;
+}
+.cartContainer .columnLeft.additionalItems .rightStoreItems input.amount {
+	display: block;
+	float: left;
+	width: 10ex;
+}
+.cartContainer .columnLeft.additionalItems .rightStoreItems label.radio {
+	width: 75px;
+	display: block;
+	float: left;
+	margin-bottom: 0px;
+	padding-top: -1px;
+}
+*+html .cartContainer .columnLeft.additionalItems .rightStoreItems label.radio {
+	padding-top: 2px;
+}
+.cartContainer .columnRight .orderSummaryDetail, .cartContainer .columnRight .registeredUsersDetail, .cartContainer .columnRight .registerNewUser, .cartContainer .columnRight .deliveryAddress, .cartContainer .columnRight .promotionalCode {
+	border: 1px solid #CCC;
+	margin-bottom: 15px;
+	padding: 10px;
+	display: block;
+	float: left;
+	width: 248px;
+	clear: both;
+}
+#cart .orderSummaryDetail hr {
+	background: #CCC;
+	display: block;
+	height: 1px;
+	clear: both;
+	margin: 5px 0px 5px;
+}
+*+html #cart .orderSummaryDetail hr {
+	margin: 5px 0px 0px 0px;
+}
+.cartContainer .columnRight .orderSummaryDetail .dataLabel {
+	font-size: 0.8em;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px;
+	width: 49%;
+	float: left;
+}
+.cartContainer .columnRight .orderSummaryDetail .data {
+	font-size: 0.8em;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px;
+	width: 49%;
+	float: right;
+	text-align: right;
+}
+.columnRight .registeredUsersDetail p, .columnRight .deliveryAddress p, .columnRight .promotionalCode p {
+	display: block;
+	width: 245px;
+	padding-left: 0px;
+	margin-bottom: 5px;
+	clear: both;
+}
+.columnRight .registeredUsersDetail p label, .columnRight .deliveryAddress p label, .columnRight .promotionalCode p label {
+	display: block;
+	padding: 2px 0px 0px;
+	width: 40%;
+	float: left;
+	margin-left: 0px;
+}
+.columnRight .promotionalCode p label.hidden {
+	display: none;
+	visibility: hidden;
+}
+.cartContainer .registeredUsersDetail input.text, .cartContainer .registeredUsersDetail input.password, .cartContainer .promotionalCode input.text, .cartContainer .promotionalCode input.password {
+	width: 55%;
+	max-width: 55%;
+	display: block;
+	font-size: 100%;
+	float: none;
+}
+.cartContainer .columnLeft.deliveryMethod .input_buttons.topBottomMargin {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+*+html .cartContainer .columnLeft.deliveryMethod .input_buttons.topBottomMargin {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.promotionalCode .input_buttons.topBottomMargin {
+	margin-bottom: 0px;
+}
+.cartContainer .columnLeft.deliveryAddress p {
+	width: 615px;
+	padding-left: 0px;
+	clear: both;
+	display: block;
+	float: left;
+}
+.cartContainer .columnLeft.deliveryAddress .checkbox, .cartContainer .columnLeft.deliveryAddress .radio {
+	border: none;
+	vertical-align: middle;
+	margin-right: 5px;
+	float: left;
+	display: block;
+	width: 20px;
+}
+.cartContainer .columnLeft.deliveryAddress p label {
+	padding: 2px 0px 0px;
+	width: 250px;
+}
+.cartContainer .columnLeft.deliveryAddress .dataLabel {
+	font-weight: normal;
+	display: block;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	width: 250px;
+	float: left;
+}
+.cartContainer .columnLeft.deliveryAddress .dataLabel.notRequired {
+	padding-left: 9px;
+	width: 241px;
+}
+.cartContainer .columnLeft.deliveryAddress .data {
+	font-weight: normal;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 0px;
+	float: left;
+	width: 340px;
+}
+.cartContainer .columnLeft.deliveryAddress .dataStack {
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px 10px 0px 0px;
+	width: 355px;
+	float: left;
+}
+.cartContainer .columnLeft.deliveryAddress .dataStack p {
+	width: 350px;
+}
+.cartContainer .columnLeft.deliveryAddress .dataStack select {
+	border: 1px solid #CCCCCC;
+	display: block;
+	font-size: 100%;
+	overflow: visible;
+	float: left;
+	margin-right: 10px;
+}
+.cartContainer .columnLeft.deliveryAddress p .monthYear {
+	display: block;
+	float: left;
+	width: auto;
+	margin-right: 5px;
+}
+.cartContainer .columnLeft.deliveryAddress p label {
+	width: 250px;
+}
+.cartContainer .columnLeft.deliveryAddress .instructions {
+	width: 623px;
+	padding-left: 10px;
+}
+.cartContainer .columnLeft.deliveryAddress .deliveryAddressForm {
+	display: block;
+	padding: 15px 15px 10px;
+	border: 1px solid #CCC;
+	float: left;
+	width: 613px;
+	margin: 0px 0px 15px;
+}
+*+html .cartContainer .columnLeft.deliveryAddress .deliveryAddressForm {
+	float: none;
+}
+.cartContainer .columnLeft.deliveryAddress p label.notRequired {
+	padding-left: 9px !important;
+	width: 241px;
+}
+#cart .cartContainer .messageRequired {
+	font-size: .7em;
+	font-weight: bold;
+	color: #af292e;
+	background: #ebc9cb;
+	display: block;
+	padding: 10px;
+	border: 1px solid #af292e;
+	margin-bottom: 10px;
+}
+#cart .cartContainer .messageGo {
+	font-weight: bold;
+	color: #55a51c;
+	background: #d4e8c6;
+	display: block;
+	padding: 10px;
+	border: 1px solid #55a51c;
+	margin-bottom: 15px;
+	font-size: 0.8em;
+}
+.cartContainer .columnLeft.deliveryMethod .columnLeft.deliveryAddress .deliveryAddressForm p .data .trueFalse {
+	width: 310px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 0px;
+}
+#cart h2.review {
+	padding: 5px;
+	background: #eee;
+	font-size: 0.9em;
+	color: #333;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	display: block;
+	width: 288px;
+	margin-right: 15px;
+	float: left;
+	clear: none;
+}
+#cart h2.review.right {
+	float: right;
+	margin-right: 0px;
+}
+.cartContainer .orderSummaryDetail.review, .cartContainer .deliveryAddress.review, .cartContainer .promotionalCode.review, .cartContainer .downloadFiles.review {
+	border: 1px solid #CCC;
+	margin-bottom: 15px;
+	padding: 10px;
+	display: block;
+	float: left;
+	width: 278px;
+	margin-right: 15px;
+}
+.cartContainer .orderSummaryDetail.review p {
+	width: 270px;
+	margin: 0px;
+}
+.cartContainer .orderSummaryDetail.review p.review {
+	width: 240px;
+	padding-left: 25px;
+	font-size: 80% !important;
+}
+.cartContainer .promotionalCode.review.right {
+	float: left;
+	margin-right: 0px;
+	clear: none;
+}
+.cartContainer.promotionalCode.review.right label {
+	width: 125px;
+}
+.columnRight .promotionalCode.review p label.hidden {
+	display: none;
+	visibility: hidden;
+}
+.cartContainer .deliveryAddress.review.center {
+	float: left;
+	margin-right: 15px;
+	clear: none;
+}
+.cartContainer .deliveryAddress.review p, .cartContainer .promotionalCode.review p, .cartContainer .downloadFiles.review p {
+	display: block;
+	width: 245px;
+	padding-left: 0px;
+	margin-bottom: 5px;
+	clear: both;
+}
+.cartContainer .orderSummaryDetail.review .dataLabel {
+	font-size: 0.8em;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px;
+	width: 40%;
+	float: left;
+}
+.cartContainer .orderSummaryDetail.review .data {
+	font-size: 0.8em;
+	display: block;
+	margin: 0px 0px 5px;
+	padding: 0px;
+	width: 59%;
+	float: right;
+	text-align: right;
+}
+#submitOrderMessageDiv {
+	padding: 20px;
+	border: 1px solid #CCC;
+	text-align: center;
+	font-weight: bold;
+	margin: 20px;
+}
+#submitOrderMessageDiv img {
+	padding-top: 15px;
+	text-align: center;
+	display: block;
+	border-style: none;
+	float: none;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+.paymentCards {
+	display: block;
+	clear: both;
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+.paymentCards img {
+	border: 1px solid #CCC;
+}
+.cartContainer .deliveryAddressContainer, .cartContainer .autoFillDownloadContainer, .cartContainer .manualDownloadContainer {
+	float: left;
+	display: inline-block;
+	width: 31%;
+}
+.cartContainer .deliveryAddressContainer {
+	margin-right: 26px;
+}
+.cartContainer .autoFillDownloadContainer {
+	margin-right: 26px;
+}
